@@ -1,0 +1,66 @@
+body {
+  animation: bgchange 80s infinite;
+  background-image:url('log1.jpg');
+  background-size:100% 100%;
+  
+}
+
+@keyframes bgchange {
+  0%   {background-image:url('log1.jpg');}
+  25%  {background-image:url('log2.jpeg');}
+  50% {background-image:url('log3.jpg');}
+  100% {background-image:url('log4.jpg');}
+}
+body, html {
+  height: 100%;
+  font-family: Arial;
+  overflow:hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form {
+  position: absolute;
+  left:5%;
+  margin: 20px;
+  max-width: 300px;
+  padding: 16px;
+  background-color:#3b3535;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #D3D3D3;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: gray;
+  outline: none;
+}
+
+.btn {
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom:20px;
+}
+a{text-decoration:none;
+	
+}
+.right{
+position:absolute;
+margin-left:75%;}
+@media only screen and (min-width: 1026px) {
+    #fadeshow1 {
+        display: none;
+    }
+}

@@ -1,0 +1,204 @@
+
+
+.main{width:90%;
+	height:90%;
+	vertical-align:top;
+}
+.container{margin-left:15px;
+		width:100%;
+		height:100%;
+		overflow-x:hidden;
+		overflow-y:auto;
+		display:block;
+		
+}
+.container2{margin-left:15px;
+		width:100%;
+		height:100%;
+		overflow-x:hidden;
+		overflow-y:auto;
+		display:none;
+		
+}
+
+.tabborder{
+border:1;}
+.extra{height:5%;
+}
+.sides{
+width:5%;
+height:80%;
+display:block;}
+#main{
+	width:100%;
+	height:100%;
+	margin-bottom:5px;
+
+}
+::-webkit-scrollbar {
+	display:none;
+}
+table{ position:fixed;
+
+}
+
+.bar{width:200px;
+height:30px;
+margin-bottom:0;
+background-color:blue;
+margin-bottom:0;
+margin-top:220px;
+text-align:center;
+font-family:Serif,Swiss;
+
+}
+.box{height:250px;
+width:200px;
+margin:10px;
+float:left;
+
+}
+.box:hover {
+  box-shadow: 0 0 11px rgba(0,0,0,1); 
+}
+.navbar {
+  overflow: hidden;
+  background-color: #3b3535;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:#3b3535;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: black;
+}
+
+.others {
+  display: none;
+  position: absolute;
+  background-color:#3b3535;
+  min-width: 100px;
+  z-index: 1;
+}
+
+.others a {
+  float: none;
+  color: white;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: black;
+}
+
+.dropdown:hover .others {
+  display: block;
+}
+.whale{background-image:url("whale2.jfif");
+background-size:100% 100%;}
+.dbc{background-color:#3b3535;
+color:white;}
+.ant{background-image:url("Ant.jfif");
+background-size:100% 100%;}
+.bear{background-image:url("Bear.jfif");
+background-size:100% 100%;}
+.bee{background-image:url("Bee.jfif");
+background-size:100% 100%;}
+.butterfly{background-image:url("Butterfly.jfif");
+background-size:100% 100%;}
+.dolphin{background-image:url("Dolphin.jfif");
+background-size:100% 100%;}
+.Crow{background-image:url("Crow.jfif");
+background-size:100% 100%;}
+.hawk{background-image:url("Hawk.jfif");
+background-size:100% 100%;}
+.lion{background-image:url("Lion.jfif");
+background-size:100% 100%;}
+.lizard{background-image:url("Lizard.jfif");
+background-size:100% 100%;}
+.gorila{background-image:url("Gorila.jfif");
+background-size:100% 100%;}
+.owl{background-image:url("owl1.jfif");
+background-size:100% 100%;}
+.parrot{background-image:url("Parrot.jfif");
+background-size:100% 100%;}
+.rabbit{background-image:url("Rabbit.jfif");
+background-size:100% 100%;}
+.shark{background-image:url("Shark.jfif");
+background-size:100% 100%;}
+.snail{background-image:url("Snail.jfif");
+background-size:100% 100%;}
+.snake{background-image:url("Snake.jfif");
+background-size:100% 100%;}
+.tarantula{background-image:url("tarantula3.jfif");
+background-size:100% 100%;}
+.tiger{background-image:url("tiger4.jfif");
+background-size:100% 100%;}
+.wolf{background-image:url("wolf3.jfif");
+background-size:100% 100%;}
+
+.sicon:hover input{display:block;}
+.sicon{float:right;
+background-image:url("search.png");
+background-size:100% 100%;
+width:50px;
+height:50px;
+}
+.result{min-width:10%;
+background-color:#3b3535;
+float:right;
+display:block;
+position:absolute;
+left:85%;
+top:10%;
+height:20%;
+overflow:scroll;
+}
+
+.result a{
+	width:100%;
+	padding:10px 10px;
+}
+
+input[type=text] {
+float:right;
+width:10%;
+height:50px;
+background-color:#3b3535;
+color:white;
+background-image: url('search.png');
+
+
+}
+
+@media only screen and (min-width: 1026px) {
+    #fadeshow1 {
+        display: none;
+    }
+}
+
+
